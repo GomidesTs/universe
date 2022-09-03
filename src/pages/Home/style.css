@@ -1,0 +1,36 @@
+body {
+  background-image: url(../../img/mountains.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: grid;
+  gap: 3.6rem;
+  place-content: center;
+}
+.container h1 {
+  color: #e1e1e6;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 125%;
+}
+.container a {
+  background: transparent;
+  color: #e1e1e6;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1.2rem 3.2rem;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+.container a:hover {
+  transform: scale(1.2);
+}/*# sourceMappingURL=style.css.map */
