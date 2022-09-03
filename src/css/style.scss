@@ -1,0 +1,43 @@
+:root {
+    font-size: 62.8%;
+}
+
+body {
+    display: grid;
+    gap: 3.6rem;
+
+    height: 100vh;
+
+    font-family: 'Roboto';
+
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+    color: #c4c4cc;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.1rem;
+    line-height: 22px;
+
+    transition: all 0.5s linear;
+    &:hover {
+        transform: scale(1.09) translateY(1rem);
+
+        color: #fff;
+    }
+}
+
+.header {
+    display: flex;
+    gap: 3.2rem;
+
+    padding: 4rem 7.2rem;
+
+    nav {
+        display: flex;
+        gap: 3.2rem;
+    }
+}
