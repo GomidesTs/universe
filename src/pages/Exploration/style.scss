@@ -1,0 +1,32 @@
+body {
+    background-image: url(../../img/lot.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 64.8rem;
+
+    color: #e1e1e6;
+
+    font-style: normal;
+
+    display: flex;
+    flex-direction: column;
+
+   
+
+    padding: 10.2rem;
+
+    h1 {
+        font-weight: 700;
+        font-size: 4.8rem;
+        line-height: 125%;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 160%;
+    }
+}
